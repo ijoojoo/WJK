@@ -1,0 +1,26 @@
+#content{
+}
+#content #huiyuanbanli{
+	width: 85%;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 15px;
+	font-size: 0.8em;
+	border: 2px solid #fff;
+	box-shadow: 5px 5px #999;
+	background: rgb(229,229,249);
+}
+#content #huiyuanbanli ul{
+	width: 100%;
+	list-style: none;
+}
+#content #huiyuanbanli ul li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+#content #huiyuanbanli ul li input{
+	width: 100%;
+	height: 85%;
+}

@@ -1,0 +1,321 @@
+/*
+主题绿色rgb(0,146,63)
+shaow:#999;
+ */
+@CHARSET "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 微软雅黑,黑体;
+}
+a{
+	text-decoration:none;
+	font-family:幼圆,微软雅黑;
+	font-weight: bold;
+}
+a:link,a:visited{
+	color: rgb(55,50,50);
+}
+
+a:hover{
+	color: White;
+	background: rgb(100,100,100);
+}
+
+body{
+	font-size:1.2em;
+	width: 99%;
+	margin-left:auto;
+	margin-right:auto;
+	min-width: 320px;
+	background: rgb(0,146,63);
+}
+
+/*header部分*/
+
+#header{
+	height:15%;
+	color:White;
+	background: rgb(254,253,249);
+	margin-top: 1px;
+	margin-bottom: 3px;
+}
+#header h1{
+	display: none;
+
+	padding-top:10px;
+	text-align: center;
+	font-family:黑体;
+	font-size:1.4em;
+	background: rgb(0,146,63) url(../images/logo.png) no-repeat fixed top;
+}
+#header h2{
+	font-size: 0.5em;
+	width: 6em;
+	text-align: center;
+	float: right;
+	margin-right: 2.0em;
+	z-index: 9998;
+	background: rgb(0,146,63);
+	border-radius: 0 0 6px 6px;
+	box-shadow: 3px 3px 3px #999;
+}
+#header h2 a{
+	color: white;
+	display: block;
+}
+#header #logo{
+	width: 75%;
+	height: 100%;
+	padding-top: 1.6em;
+}
+#header #logo img{
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+/*导航条*/
+/*
+#daohangtiao{
+	width:100%;
+	height:10%;
+	text-align: center;
+	font-family:幼圆,微软雅黑;
+	font-size:1.2em;
+	color:White;
+	background:#505050;
+}
+#daohangtiao ul{
+	width:100%;
+	height:100%;
+	list-style:none;
+	display:inline;
+}
+#daohangtiao ul li{
+	float:left;
+	width:16.6%;
+	height:100%;
+	line-height:80px;
+}
+#daohangtiao ul li a{
+	display:block;
+	height: 100%;
+}
+*/
+/*content部分*/
+
+#content{
+	min-height:75%;
+	width: 100%;
+	background: rgb(219,219,219);
+}
+
+/*footer部分*/
+#footer{
+	clear: both;
+	width:100%;
+	height:10%;
+	text-align: center;
+	color:#FFFFFF;
+	font-size:0.7em;
+	background: rgb(49,47,47);
+}
+#footer ul{
+	list-style:none;
+}
+#footer ul li{
+	line-height:18px;
+}
+#footer ul li a{
+	color: white;
+}
+
+
+
+/*【导航】*/
+#daohangtiao{
+	font-size: 1.0em;
+}
+/*【按钮】*/
+/*按钮的日常状态*/
+#daohangtiao #daohanganniu{
+	opacity: 0.5;
+	height: 50px;
+	width: 50px;
+	z-index: 9999;
+	/*position: absolute;*/
+	position: fixed;
+	/*
+	top: 1.0em;
+	right: 1.0em;
+	*/
+	left: 1%;
+	bottom: 150px;
+	bottom: expression(eval(document.documentElement.scrollTop));
+}
+#daohangtiao #daohanganniu img{
+	width: 50px;
+	height: 50px;
+}
+/*按钮被点击的时候的状态*/
+/*
+.daohanganniu-huodong{
+	opacity: 1.0;
+}
+*/
+
+/*【菜单】*/
+/*导航栏显示时的状态*/
+#daohangtiao #daohangcaidan{
+	z-index:-9999;
+	opacity: 0.0;
+	padding: 7px;
+	/*position:absolute;
+	top: 4.0em;
+	right: 1.0em;
+	*/
+position: fixed;
+	left: -100px;
+	bottom: 60px;
+	/*width: 60%;
+	height: 75%;*/
+	background: rgb(0,146,63);
+	box-shadow: 3px 3px 3px #999;
+
+	-webkit-transition-property: all;
+  	transition-property: all;
+  	-webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
+/*导航栏显示时的状态*/
+/*
+.daohangcaidan-huodong{
+	opacity: 1.0;
+	z-index: 9999;
+}
+*/
+
+/*导航条目*/
+#daohangtiao #daohangcaidan .daohangtiaomu{
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	list-style: none;
+}
+#daohangtiao #daohangcaidan a{
+	display: block;
+	color: white;
+}
+#daohangtiao #daohangcaidan a:hover{
+	background: Orange;
+}
+
+
+/*2017-09-25*/
+#daohangtiao9{
+	font-size: 1.2em;
+	opacity: 1.0;
+	z-index: 9998;
+	width: 100%;
+	text-align: center;
+}
+
+/*主页按钮*/
+#daohangtiao9 #zhuyediv{
+	width: 70px;
+	height: 70px;
+
+	z-index: 9999;
+	position: fixed;
+
+	margin: auto;
+	bottom: 15px;
+	right: 0;
+	left: 0;
+
+	-moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+
+	background: rgb(237,237,237);
+	box-shadow: 0 0 0 2px #999;
+}
+#daohangtiao9 #zhuyediv a{
+	display: block;
+}
+#daohangtiao9 #zhuyediv a:hover{
+	background: none;
+}
+.zhuyediv:hover{
+	background: green;
+}
+#daohangtiao9 #zhuyediv img{
+	height: 80%;
+	width: 80%;
+	padding-top: 8px;
+	opacity: 1.0;
+}
+
+/*菜单*/
+#daohangtiao9 #caidandiv{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+	background: rgb(0,146,63);
+}
+#daohangtiao9 #caidandiv ul{
+	display: inline;
+	width: 100%;
+	height: 100%;
+	list-style: none;
+}
+#daohangtiao9 #caidandiv ul li{
+	float: left;
+	width: 19%;
+	height: 60px;
+	line-height: 60px;
+}
+#daohangtiao9 #caidandiv ul li.zhuyeli{
+	width: 23%;
+}
+#daohangtiao9 #caidandiv ul li a{
+	display: block;
+	width: 100%;
+	color: white;
+}
+
+/*--------三个导航子菜单----------------*/
+#daohangtiao9 .zicaidan{
+	z-index:-9999;
+	opacity: 0.0;
+	padding: 7px;
+	position: fixed;
+	left: -100px;
+	bottom: 60px;
+	background: rgb(0,146,63);
+	box-shadow: 3px 3px 3px #999;
+
+	-webkit-transition-property: all;
+  	transition-property: all;
+  	-webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
+
+#daohangtiao #daohangcaidan .daohangtiaomu{
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	list-style: none;
+}
+#daohangtiao #daohangcaidan a{
+	display: block;
+	color: white;
+}
+#daohangtiao #daohangcaidan a:hover{
+	background: Orange;
+}
+
+

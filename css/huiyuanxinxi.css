@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+#content{}
+#content #chaxundiv{
+	padding: 5px;
+	background: rgb(200,200,200);
+}
+#content #chaxundiv ul{
+	list-style: none;
+}
+#content #chaxundiv ul li{
+	height: 40px;
+	text-align: center;
+}
+#content #chaxundiv ul li #huiyuanxinxi{
+	height: 95%;
+	width: 100%;
+}
+#content #chaxundiv ul li #chaxunanniu{
+	height: 95%;
+	width: 100%;
+	
+}
+/**会员信息*/
+
+#content #huiyuanxinxidiv{
+	width:100%;
+	height:70%;
+	padding: 5px 0;
+	background: rgb(180,180,180);
+}
+#content #huiyuanxinxidiv table{
+	height:100%;
+	width: 98%;
+	font-size: 0.7em;
+	margin-left: auto;
+	margin-right: auto;
+	table-layout: 0;
+	border-collapse:collapse;/*单一边框*/
+	cellspacing: 0;
+}
+#content #huiyuanxinxidiv table tr{
+
+}
+
+#content #huiyuanxinxidiv table tr td{
+	border: 2px solid rgb(250,250,250);
+}
+#content #huiyuanxinxidiv table tr td.column0{
+	width: 14%;
+	text-align: center;
+}
+#content #huiyuanxinxidiv table tr td.column1{
+	width: 20%;
+}
+#content #huiyuanxinxidiv table tr td.column2{
+	width: 14%;
+	text-align: center;
+}
+#content #huiyuanxinxidiv table tr td.column3{
+	width: 20%;
+}
+#content #huiyuanxinxidiv table tr td.column4{
+	width: 32%;
+	background: rgb(240,240,240);
+}
+
+#content #huiyuanxinxidiv table tr td img{
+	max-height:100%;
+	max-width:100%;
+}
+/*标签*/
+#content #huiyuanxinxidiv table tr td span.biaoqianspan{
+	margin: 0 0.3em;
+	padding: 0 0 0 1em;
+	box-shadow: 3px 3px 3px #999;
+	border-radius: 1em 0 0 1em;
+	background: rgb(222,222,0);
+}
+
+/*页码*/
+#content #yema{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	position: fixed;
+	bottom: 50px;
+	font-size: 0.8em;
+}
+#content #yema ul{	
+	display: table;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+#content #yema ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 0.3em;
+}
+#content #yema ul li a{
+	color: rgb(39,40,34);
+	display: block;
+}

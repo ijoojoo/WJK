@@ -1,0 +1,1 @@
+var shijian=30;

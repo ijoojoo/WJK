@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	max-width: 100%;
+	background: #E77777;
+}
+/*【导航】*/
+#daohangtiao{
+	font-size: 1.2em;
+}
+/*【按钮】*/
+/*按钮的日常状态*/
+#daohangtiao #daohanganniu{
+	opacity: 0.5;
+	height: 50px;
+	width: 50px;
+	z-index: 9999;
+	position: absolute;
+	top: 1.0em;
+	right: 1.0em;
+}
+#daohangtiao #daohanganniu img{
+	width: 50px;
+	height: 50px;
+}
+/*按钮被点击的时候的状态*/
+.daohanganniu-huodong{
+	opacity: 1.0;
+}
+
+/*【菜单】*/
+/*导航栏显示时的状态*/
+#daohangtiao #daohangcaidan{
+	z-index:-9999;
+	opacity: 0.0;
+	padding: 5px;
+	position:absolute;
+	top: 4.0em;
+	right: 1.0em;
+	width: 60%;
+	height: 75%;
+	background: #333;
+}
+/*导航栏显示时的状态*/
+.daohangcaidan-huodong{
+	opacity: 1.0;
+	z-index: 9999;
+}
+
+/*导航条目*/
+#daohangtiao #daohangcaidan .daohangtiaomu{
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	list-style: none;
+	background: Green;
+}
+#daohangtiao #daohangcaidan a{
+	display: block;
+}
+#daohangtiao #daohangcaidan a:hover{
+	background: Orange;
+}
